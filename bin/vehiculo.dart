@@ -1,8 +1,8 @@
 import 'person.dart';
 
-class ObjetoInerte{}
+abstract class ObjetoInerte {}
 
- abstract class Vehiculo implements Actor, ObjetoInerte {}
+abstract class Vehiculo implements Actor, ObjetoInerte {}
 
 class Coche extends Vehiculo {}
 

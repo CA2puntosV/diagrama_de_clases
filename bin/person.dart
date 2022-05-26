@@ -1,4 +1,4 @@
-class Actor{}
+abstract class Actor{}
 
 abstract class Persona implements Actor {}
 
